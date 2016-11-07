@@ -1,0 +1,181 @@
+body{
+    background-image: url("backgroung pic/background.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+	}
+
+.header {
+    background-size: cover;
+	background-position: center;
+	height: 580px;
+	margin-top: -8px;					/* let the header fit the window */
+	margin-right: -8px;					/* let the header fit the window */
+	margin-left: -8px;					/* let the header fit the window */
+	font-family: 'Noto Sans TC', sans-serif;
+    //opacity:0.6;
+}
+
+#HomePage_header{
+	background-image: url("header pic/HomePage_header.png");
+}
+
+#AboutUs_header{
+	background-image: url("header pic/AboutUs_header.png");
+}
+
+#ContactUs_header{
+	background-image: url("header pic/ContactUs_header.png");
+}
+
+#Info_header{
+	background-image: url("header pic/Info_header.png");
+}
+
+#QA_header{
+	background-image: url("header pic/QA_header.png");
+}
+
+#SignUp_header{
+	background-image: url("header pic/SignUp_header.png");
+}
+
+#content {
+	//margin-right: -16px;		/* set the right margin of the table */
+	height: 50px;
+}
+
+/* 引用嵌入字型 */
+.embFont01 {
+    font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+    font-size: 21px;
+}
+
+.embFont02 {
+    font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+    font-size: 21px;
+}
+
+.NormalFont{font-size:21px;}
+/* 引用到這裡 */
+
+.category_word {
+	text-align: center;
+    border-collapse: collapse;
+    margin-left: -8px;
+}
+
+.tdall{
+	color: #b9c2a3;
+	border-right-width: thin;
+	border-left-width: thin;
+	border:0px solid;
+	width: 172px;
+	height: 46px;
+	line-height: 46px; /* make the text in the table cells vertically centered */
+	font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+}
+
+a:link{
+	color: #686C5C;	/* links that haven't been clicked */
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a{
+	color: #686C5C;	/* links that have already been clicked */
+	text-decoration: none;
+}
+
+a:hover{	/* when link is hovered */
+	color: white;
+	text-decoration: none;
+}
+
+td:hover {	/* when box is hovered */
+    //background-color: #b9c2a3;
+	border:0px solid;
+	border-top-style: none;
+	border-bottom-style: none;
+}
+
+td a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#HomePagetd:hover{
+	background-color: #b9c2a3;
+}
+
+#AboutUstd:hover{
+	background-color: #D0D4BD;
+}
+
+#ContactUstd:hover{
+	background-color: #D4CCB4;
+}
+
+#Infotd:hover{
+	background-color: #D4CCB4;
+}
+
+#QAtd:hover{
+	background-color: #F2EEE3;
+}
+
+#SignUptd:hover{
+	background-color: #C6E3F3;
+}
+
+.paragraphbackground{
+	margin: 20px;
+	padding: 20px;
+    color:#FFFFFF;
+}
+
+.welcome{
+	margin: 23px;
+	padding: 20px;
+	font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+    background-color: #b9c2a3;
+}
+
+.Sec1 {
+	display: table-cell;
+	margin: 23px;
+	padding: 20px;
+	font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+	background-color: #b9c2a3;
+
+}
+
+.Sec2 {
+	display: table-cell;
+	margin: 40px;
+	padding: 20px;
+	font-family: 'SetoFont', 'Baloo Paaji', sans-serif;
+	background-color: #b9c2a3;
+}:
+              
+            }
+.style2 {
+                width: 751px;
+            }
+
+#footer {
+	background-color: ;
+	height: 40px;
+    height: 40px;
+	padding: 20px;
+	background-color: #b9c2a3;
+	font-family: 'SetoFont', 'Baloo Paaji', sans-serif;	
+}
+
+/* for testing the unwanted blanks */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
