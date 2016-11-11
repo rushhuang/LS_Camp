@@ -1,5 +1,14 @@
 var main = function() {
-  $('.arrow-next').click(function() {
+  $('.arrow-next').click(NextSlide);
+
+  $('.arrow-prev').click(PrevSlide);
+
+  $('.Ind').click(Indicate);
+
+  AutoSlideShow();
+}
+
+function NextSlide(){
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();
 
@@ -16,10 +25,9 @@ var main = function() {
 
     currentInd.removeClass('active-Ind');
     nextInd.addClass('active-Ind');
-  });
+  }
 
-
-  $('.arrow-prev').click(function() {
+  function PrevSlide(){
     var currentSlide = $('.active-slide');
     var prevSlide = currentSlide.prev();
 
@@ -36,9 +44,9 @@ var main = function() {
 
     currentInd.removeClass('active-Ind');
     prevInd.addClass('active-Ind');
-  });
+  }
 
-  $('.Ind').click(function(){
+  function Indicate(){
     var currentSlide = $('.active-slide');
     var currentInd = $('.active-Ind');
     var newSlide = $(this).index();
@@ -47,6 +55,11 @@ var main = function() {
 
     $('.slide').eq(newSlide-1).addClass('active-slide');
     $(this).addClass('active-Ind');
-  });
-}
+  }
+
+  function AutoSlideShow(){
+    NextSlide();
+    setTimeout(AutoSlideShow, 1800);
+  }
+
 $(document).ready(main);
