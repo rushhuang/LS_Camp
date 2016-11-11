@@ -321,6 +321,12 @@ td a{
 	background-size: cover;
 }
 
+.ParkingMap a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .style2 {
      width: 751px;
 }
